@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.anasprint.comptabilite'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.anasprint.comptabilite'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+}
